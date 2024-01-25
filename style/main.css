@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*------------------------------------------------------*/
+
+.head-box {
+    background-image: url("../img/bg-headd.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.head-kids1 {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.nav-bar-menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    align-self: center;
+}
+.nav-kids {
+    align-self: center;
+    text-align: center;
+    width: 100px;
+}
+.menu-font {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-bar-side {
+    width: 200px;
+    height: 100px;
+    align-self: center;
+}
+.head-kids2 {
+    width: 80%;
+    height: 60%; 
+    align-self: center;
+}
+.head-text1 {
+    font-size: 64px;
+    text-align: center;
+    font-weight: bold;
+}
+.head-text2{
+    font-size: 24px;
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+.main-content-1 {
+    background-color: white;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.main-content-2 {
+    background-color: rgb(214, 214, 214);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.main-content-3 {
+    background-color: rgb(128, 0, 0);
+    height: 600px;
+    width: 100%;
+    display: flex;
+}
+
+.sub-1 {
+    align-self: center;
+    /* background-color: blue; */
+    width: 40%;
+    height: 500px;
+}
+.sub-2 {
+    align-self: center;
+    /* background-color: rgb(255, 0, 195); */
+    height: 500px;
+    width: 30%;
+}
+
+.text1 {
+    font-size: 48px;
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.text2 {
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+/*------------------------------------------------------*/
+
