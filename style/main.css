@@ -3,19 +3,24 @@
 
 /*------------------------------------------------------*/
 
-
 * {
     margin: 0;
     padding: 0;
+}
+a {
+    text-decoration: none;
 }
 
 /*------------------------------------------------------*/
 
 .head-box {
-    background-image: url("../img/bg-headd.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    min-height: auto;
+    background-color: #2844E6;
+    background-image: url(../img/top_left.svg),url(../img/top_right.svg),url(../img/top_clound.svg);
+    background-position: -15% 100%,112% 98%,50% 100%;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size:38%,38%,auto;
+    padding-top: 0;
     width: 100%;
     height: 630px;
     display: flex;
@@ -49,7 +54,6 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    font-family: 'Alfa Slab One', serif;
     font-family: 'Karla', sans-serif;
 }
 .nav-bar-side-left {
@@ -65,7 +69,20 @@
 .head-kids2 {
     width: 80%;
     height: 60%; 
+    display: flex;
     align-self: center;
+    flex-direction: column;
+}
+.head-button-box {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    align-self: center;
+    padding-top: 50px;
 }
 .head-text1 {
     font-size: 64px;
@@ -78,25 +95,55 @@
     font-family: 'Karla', sans-serif;
     font-size: 24px;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 /*------------------------------------------------------*/
 
-.button-white {
+.white-button {
     color: #23272a;
     background-color: #fff;
     border-radius: 40px;
     padding: 10px 20px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all .2s;
+    font-family: 'Karla', sans-serif;
+}
+.head-button-left {
+    color: #23272a;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all .2s;
+    font-family: 'Karla', sans-serif;
+}
+.head-button-right {
+    color: #ffffff;
+    background-color: rgb(40,45,48);
+    border-radius: 40px;
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: all .2s;
+    font-family: 'Karla', sans-serif;
+}
+.ready-downlaod-button {
+    color: #ffffff;
+    font-family: 'Karla', sans-serif;
+    background-color: #5865F2;
+    border-radius: 40px;
+    padding: 18px 60px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 24px;
     transition: all .2s;
 }
-a {
-    text-decoration: none;
-}
-
 
 /*------------------------------------------------------*/
 
@@ -152,9 +199,11 @@ a {
     background-color: rgb(240, 240, 240);
     height: 1300px;
     width: 100%;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
 }
-
 .sub-1 {
     align-self: center;
     /* background-color: blue; */
@@ -166,6 +215,25 @@ a {
     /* background-color: rgb(255, 0, 195); */
     height: 350px;
     width: 30%;
+}
+.sub-content-3 {
+    background-image: url(../img/star.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 10px;
+}
+.sub-content-3-1 {
+    width: 70%;
+    height: 100px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .text1 {
@@ -203,26 +271,18 @@ a {
     align-items: center;
 }
 .footer-line-blue {
-    border-top: 1px solid white;
-    width: 70%;
+    border-top: 1px solid rgb(88,101,242);
+    width: 61%;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-.sub-box-2 {
-    height: 20%;
-    width: 100%;
-    background-color: #38dfd1;
     display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .language-bar {
-    background-color: rgb(27, 255, 114);
     height: 30%;
 }
 .icon-link {
-    background-color: #2844E6;
     width: 100%;
     height: 50%;
     display: flex;
@@ -234,7 +294,6 @@ a {
     padding-top: 20px;
 }
 .sub-4-1 {
-    background-color: aquamarine;
     width: 400px;
     height: 80%;
 }
@@ -251,30 +310,10 @@ a {
     font-weight: bold;
 }
 .text-sub-4-link {
+    padding-top: 20px;
     padding-left: 20px;
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     color: #ffffff;
 }
-.footer-link {
-    text-decoration-color: white;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*     
-    Lazmin_1100
-    Lazmin_11 
-    0966753621  */
 
