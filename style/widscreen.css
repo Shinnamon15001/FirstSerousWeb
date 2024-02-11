@@ -89,6 +89,7 @@ a {
     padding-top: 50px;
 }
 .head-text1 {
+    padding-top: 50px;
     font-size: 64px;
     color: white;
     font-family: 'Alfa Slab One', serif;
@@ -96,6 +97,7 @@ a {
     white-space: pre;
 }
 .head-text2{
+    padding-top: 50px;
     font-family: 'Karla', sans-serif;
     font-size: 24px;
     text-align: center;
@@ -324,4 +326,6 @@ a {
     font-family: 'Karla', sans-serif;
     color: #ffffff;
 }
+
+
 
