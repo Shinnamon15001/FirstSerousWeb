@@ -465,5 +465,30 @@ nav li:nth-child(9) {
         width: 100%;
         
     }
+
+    /* -------------------footer---------------------- */
+
+    .main-content-4 {
+        height: 150vh;
+    }
+    .sub-box-1 {
+        justify-content: center;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sub-4-1 {
+        width: 400px;
+        height: 10%;
+    }
+    .sub-4-2:nth-child(2),
+    .sub-4-2:nth-child(3) {
+        height: 25%;
+    }
+    .sub-4-2:nth-child(4),
+    .sub-4-2:nth-child(5) {
+        height: 55%;
+    }
+
     
 }
